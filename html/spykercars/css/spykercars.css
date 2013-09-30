@@ -8,7 +8,7 @@ body{background-color: #000;}
 #container{width: 1200px;height: 1697px;margin: auto;position: relative;}
 #header{width: 1200px;height: 120px;position: absolute;z-index: 5}
 #main{width: 1200px;height: 1415px;position: absolute;}
-#footer{width: 1200px;height: 282px;border: 1px solid #fff;position: absolute;top: 1415px}
+#footer{width: 1200px;height: 282px;position: absolute;top: 1415px}
 .bg{width: 1200px;height: 795px;}
 .explore{width: 1200px;height: 620px;position: absolute;top: 795px;background-color: #fff;}
 #logo{width: 221px;height: 30px;margin: 50px 0 40px 120px;background-image: url("images/1.png");background-color: transparent;background-repeat: no-repeat;float: left;}
@@ -24,11 +24,33 @@ body{background-color: #000;}
 #fg2:hover{color:#000;background-color: #fff;}
 #pagebreak{width: 123px;height: 43px;margin-left: 120px;background-image: url("images/2.png");}
 .ys1{width: 318px;height: 430px;margin: 50px 2px 0 120px;float: left;background-color: #000; }
-.ys2{width: 318px;height: 430px;margin: 50px 2px 0 0px;border: 1px solid
-#ccc;float: left;}
-.ys3{width: 318px;height: 430px;margin-top: 50px; border: 1px solid #ccc;float: left;}
+.ys2{width: 318px;height: 430px;margin: 50px 2px 0 0px;float: left;background-color: #000;}
+.ys3{width: 318px;height: 430px;margin-top: 50px; float: left;background-color: #000;}
 .madia{width: 318px;height: 279px;}
-.body{width: 318px;height: 96px;padding: 20px 0 20px 0;position: absolute;left: 120px;top: 373px;}
+.body{width: 318px;height: 96px;padding: 20px 0 20px 0;}
 .body h1{text-align: center;}
 .body h1 a{color: rgb(157, 157, 157);line-height: 40px;font-family: Comic Sans MS; font-size: 14px}
 .body h2{color: #fff;cursor: pointer;font-family: Comic Sans MS;font-size: 20px;text-align: center;}
+#innerFooter{width: 960px;height: 158px;padding: 39px 120px 15px 120px;background-color: rgb(21,21,21);}
+#outerFooter{width: 373px;padding: 10px 440px 40px 440px;}
+.alpha li{width: auto;height: 20px;float: left;margin-left: 18px;color: rgb(66,66,66);font-family:Comic Sans MS;font-size: 13px;line-height: 20px}
+.alpha li a{font-size: 13px;color: rgb(66,66,66);font-family:Comic Sans MS;line-height: 20px; }
+.alpha li a:hover{text-decoration: underline;}
+#footer-address{width: 350px;height: 134px;float: left;}
+.left-corporate{width: 140px;height: 110px;margin-right: 20px;float: left;}
+.left-corporate p a{width: 60px;height: 19px;font-size: 15px;color: rgb(157,157,157);font-family: Comic Sans MS;line-height: 22px; }
+.left-corporate p a:hover{color: #fff;}
+.adress-col{width: 171px;height: 134px;float: left;}
+.adress-col p{height: 132px;font-size: 15px;color: rgb(150,150,150);font-family:Comic Sans MS;line-height: 22px; }
+.fonter-logo{width: 260px;height: 88px;padding: 15px;margin-right: 40px;float: left;}
+.fonter-logo a{width: 260px;height: 88px;margin: 0 auto;display: block;margin: 0 auto;text-align: center;}
+.footer-menu{width: 254px;height: 158px;float: left;}
+.footer-menu h3{font-size: 15px;color: rgb(157,157,157);}
+.footer-menu a{display: block;width: 251px;height: 43px;border: 1px solid rgb(150,150,150);color: rgb(150,150,150);line-height: 43px;font-size: 15px;padding-left: 15px;text-align: center;margin-top: 5px}
+.footer-menu a:hover{color: #fff;border: 1px solid #fff;}
+.follow{display: block;width: 131px;height: 43px;border: 1px solid rgb(150,150,150);line-height: 43px;font-size: 15px;color:rgb(150,150,150);}
+.like{border: 1px solid rgb(150,150,150);}
+
+
+
+
